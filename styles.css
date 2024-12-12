@@ -1,0 +1,61 @@
+
+body{
+    background-color: black;
+}
+.arrow{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#user-img{
+    text-align:center;
+}
+
+#user-name{
+    text-align: center;
+    font-size: 20px;
+    color: #9563FF;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#user-email{
+    text-align: center;
+    font-size: 15px;
+    color:white;
+    margin-top: px;
+    font-weight: bold;
+}
+
+.item{
+    display:flex;
+    gap: 8px;
+    color: white;
+}
+
+#menu-container
+{
+    display:grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 4px;
+}
+
+.menu-label{
+   justify-content: center;
+   align: center;
+   display:grid;
+}
+#bottom-menu{
+    background-color: #131313;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    padding: 10px;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+}
